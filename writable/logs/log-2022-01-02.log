@@ -1,0 +1,183 @@
+CRITICAL - 2022-01-02 11:07:55 --> Undefined variable: _SESSION
+#0 /var/www/photolib/app/Controllers/Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 270, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->deleteCat()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 11:09:11 --> session_start(): A session had already been started - ignoring
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', '/var/www/photol...', 2, Array)
+#1 /var/www/photolib/app/Views/index.php(2): session_start()
+#2 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#3 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#5 /var/www/photolib/app/Controllers/Home.php(31): view('index')
+#6 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 11:09:15 --> session_start(): A session had already been started - ignoring
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', '/var/www/photol...', 2, Array)
+#1 /var/www/photolib/app/Views/index.php(2): session_start()
+#2 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#3 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#5 /var/www/photolib/app/Controllers/Home.php(31): view('index')
+#6 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 11:10:07 --> Undefined variable: css
+#0 /var/www/photolib/app/Views/template/header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 11, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(274): view('template/header', Array)
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->deleteCat()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 14:09:03 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 245, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:10:46 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 245, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:10:51 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 245, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:11:09 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 245, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:11:12 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 245, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:16:10 --> Undefined variable: id
+#0 /var/www/photolib/app/Controllers/Home.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 248, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:47:12 --> Undefined offset: 0
+#0 /var/www/photolib/app/Controllers/Home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/var/www/photol...', 238, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 14:54:18 --> Undefined offset: 0
+#0 /var/www/photolib/app/Controllers/Home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/var/www/photol...', 238, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 16:00:38 --> Undefined variable: test
+#0 /var/www/photolib/app/Views/dev/video_old.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 59, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('dev/video_old', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(280): view('dev/video_old')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->cat('19')
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 16:22:22 --> Too few arguments to function App\Models\Counter::insertInCounter(), 5 passed in /var/www/photolib/app/Controllers/Home.php on line 354 and exactly 6 expected
+#0 /var/www/photolib/app/Controllers/Home.php(354): App\Models\Counter->insertInCounter('172.226.28.8', '2022-01-02 16:2...', 1, 15447, 'Mozilla/5.0 (iP...')
+#1 /var/www/photolib/app/Controllers/Home.php(18): App\Controllers\Home->metrics()
+#2 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 16:22:37 --> Too few arguments to function App\Models\Counter::insertInCounter(), 5 passed in /var/www/photolib/app/Controllers/Home.php on line 354 and exactly 6 expected
+#0 /var/www/photolib/app/Controllers/Home.php(354): App\Models\Counter->insertInCounter('172.226.28.8', '2022-01-02 16:2...', 1, 19627, 'Mozilla/5.0 (iP...')
+#1 /var/www/photolib/app/Controllers/Home.php(18): App\Controllers\Home->metrics()
+#2 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 22:46:26 --> Invalid file: dev/video.php
+#0 /var/www/photolib/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dev/video.php')
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('dev/video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(318): view('dev/video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->other()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 22:57:19 --> Call to undefined function set_cookie()
+#0 /var/www/photolib/app/Views/template/header.php(2): include()
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(31): view('template/header', Array)
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 22:58:14 --> Call to undefined function set_cookie()
+#0 /var/www/photolib/app/Views/template/header.php(2): include()
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(31): view('template/header', Array)
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 22:58:57 --> Call to undefined function set_cookie()
+#0 /var/www/photolib/app/Views/template/header.php(2): include()
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('template/header', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(31): view('template/header', Array)
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 23:06:20 --> Undefined variable: cookie
+#0 /var/www/photolib/app/Controllers/Home.php(375): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 375, Array)
+#1 /var/www/photolib/app/Controllers/Home.php(18): App\Controllers\Home->metrics()
+#2 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 23:06:26 --> Undefined variable: cookie
+#0 /var/www/photolib/app/Controllers/Home.php(375): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 375, Array)
+#1 /var/www/photolib/app/Controllers/Home.php(18): App\Controllers\Home->metrics()
+#2 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,151 @@
+CRITICAL - 2022-01-01 21:24:57 --> Could not move file phpUjT6hK to ./assets/img/cat/ ()
+#0 /var/www/photolib/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpUjT6hK', './assets/img/ca...', '')
+#1 /var/www/photolib/app/Controllers/Home.php(265): CodeIgniter\HTTP\Files\UploadedFile->move('./assets/img/ca...')
+#2 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#3 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:38:50 --> Cannot use object of type stdClass as array
+#0 /var/www/photolib/system/View/View.php(214): include()
+#1 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#3 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#4 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#5 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-01 21:40:08 --> Cannot use object of type stdClass as array
+#0 /var/www/photolib/system/View/View.php(214): include()
+#1 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#3 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#4 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#5 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-01 21:40:28 --> Cannot use object of type stdClass as array
+#0 /var/www/photolib/system/View/View.php(214): include()
+#1 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#3 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#4 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#5 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-01 21:47:27 --> Array to string conversion
+#0 /var/www/photolib/app/Views/addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 7, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 21:47:55 --> Array to string conversion
+#0 /var/www/photolib/app/Views/addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 7, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 21:50:06 --> Array to string conversion
+#0 /var/www/photolib/app/Views/addCategory.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 7, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 21:50:27 --> Array to string conversion
+#0 /var/www/photolib/app/Views/addCategory.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 5, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 21:52:33 --> Array to string conversion
+#0 /var/www/photolib/app/Views/addCategory.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 8, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('addCategory', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(294): view('addCategory')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 22:03:44 --> Array to string conversion
+#0 /var/www/photolib/app/Views/index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/photol...', 4, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(50): view('index')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 23:16:30 --> Call to undefined method App\Models\Category::getCat
+#0 /var/www/photolib/app/Controllers/Home.php(189): CodeIgniter\Model->__call('getCat', Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->category()
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-01 23:22:56 --> Undefined variable: bdd
+#0 /var/www/photolib/app/Views/video.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 6, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(256): view('video')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->cat('4')
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 23:23:27 --> Undefined property: stdClass::$description
+#0 /var/www/photolib/app/Views/video.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/photol...', 8, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(256): view('video')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->cat('4')
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 23:27:18 --> Trying to get property 'cat_name' of non-object
+#0 /var/www/photolib/app/Controllers/Home.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/photol...', 251, Array)
+#1 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->cat('4')
+#2 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-01 23:27:48 --> Trying to get property 'path' of non-object
+#0 /var/www/photolib/app/Views/video.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/photol...', 7, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(260): view('video')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->cat('4')
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

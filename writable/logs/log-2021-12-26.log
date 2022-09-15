@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-26 15:54:40 --> Call to a member function getPath() on null
+#0 /Users/thomascariot/Sites/photolib/system/View/View.php(214): include()
+#1 /Users/thomascariot/Sites/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/thomascariot/Sites/photolib/system/Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#3 /Users/thomascariot/Sites/photolib/app/Controllers/Home.php(10): view('index')
+#4 /Users/thomascariot/Sites/photolib/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#5 /Users/thomascariot/Sites/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Users/thomascariot/Sites/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/thomascariot/Sites/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

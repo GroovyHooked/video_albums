@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-09 14:39:51 --> Undefined variable: totalTime
+#0 /var/www/photolib/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/photol...', 40, Array)
+#1 /var/www/photolib/system/Debug/Toolbar.php(497): include('/var/www/photol...')
+#2 /var/www/photolib/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /var/www/photolib/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/photolib/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/photolib/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

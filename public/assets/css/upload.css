@@ -1,0 +1,220 @@
+body{
+    background-color: #F2CC8F;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin: 30px auto 20px;
+}
+/* FLECHE RETOUR */
+.back{
+    position: relative;
+    left: -145px;
+    top: -66px;
+    margin-bottom: -20px;
+}
+.back-link{
+    height: 30px;
+    display: block;
+}
+.retour{
+    width: 70%;
+    margin: 0 auto;
+
+}
+#span{
+    display: block;
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 7px;
+    line-height: 30px;
+    top: 19px;
+}
+#span:after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    top: 5px;
+    left: -4px;
+
+}
+#span:before{
+    position: absolute;
+    content: '';
+    height: 7px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(-45deg);
+    top: -5px;
+    left: -4px;
+
+}
+/* ===================== */
+.form-data{
+    width: 315px;
+    height: 500px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 1rem;
+    color: #3D405B;
+    font-size: 21px;
+    margin-top: -20px;
+}
+.select-cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 74px;
+    justify-content: space-evenly;
+}
+#cat-select{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    -ms-appearance:     none;
+    -o-appearance:      none;
+    appearance:         none;
+    padding: 5px;
+    background: white;
+    border: 2px solid white;
+    text-align: center;
+}
+#cat-select:focus {
+    outline: none;
+    border: 2px solid #E07A5F;
+}
+/* Input type=file */
+.label-file {
+    cursor: pointer;
+    color: #81B29A;
+    font-weight: bold;
+}
+.label-file:hover {
+    color: white;
+}
+.input-file {
+    display: none;
+}
+/* ==============  */
+.uploaded-video, .uploaded-img{
+    text-align: center;
+    font-size: 16px;
+    color: chocolate;
+}
+.format{
+    margin: 0;
+}
+.upload-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+}
+.infos{
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.cross{
+    display: none;
+    position: relative;
+    left: 140px;
+    top: -20px;
+    transform: scale(1.6);
+    cursor: pointer;
+}
+.result-error{
+    position: relative;
+    width: 315px;
+    height: 500px;
+    border: 1px solid white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 1rem;
+    color: #3D405B;
+    font-size: 21px;
+}
+.result-error > * {
+    margin: 0;
+}
+.result-success{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 65%;
+    font-size: 19px;
+    margin: 0 auto;
+}
+/*   LOADER  */
+.wait{
+    color: white;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wait p{
+    margin: 0;
+}
+.rond1{
+    margin-right: 20px;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 30px;
+
+}
+.loader1{
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.loader1:before{
+    content:"";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top-color: white;
+    animation: play 1s linear infinite;
+}
+@keyframes play {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }
+}
+/* ============ */
+.btn{
+    width: 45%;
+    height: 30px;
+    border-radius: 1rem;
+    border: 2px solid white;
+    background-color: antiquewhite;
+    color: #3D405B;
+}

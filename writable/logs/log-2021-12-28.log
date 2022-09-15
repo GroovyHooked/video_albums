@@ -1,0 +1,63 @@
+CRITICAL - 2021-12-28 16:00:35 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video3', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(75): view('video3')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video3()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:01:05 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:05:42 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:05:47 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:08:05 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:08:07 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 16:09:51 --> syntax error, unexpected end of file
+#0 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('video', Array, true)
+#2 /var/www/photolib/app/Controllers/Home.php(51): view('video')
+#3 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->video1()
+#4 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

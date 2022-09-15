@@ -1,0 +1,22 @@
+CRITICAL - 2022-01-03 19:04:23 --> Use of undefined constant O - assumed 'O' (this will throw an Error in a future version of PHP)
+#0 /var/www/photolib/app/Views/dev/test2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/photol...', 2, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('dev/test2', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(298): view('dev/test2')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->deleteCat()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-03 21:58:50 --> Undefined property: stdClass::$cat_name
+#0 /var/www/photolib/app/Views/dev/test2.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/photol...', 2, Array)
+#1 /var/www/photolib/system/View/View.php(214): include('/var/www/photol...')
+#2 /var/www/photolib/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/photolib/system/Common.php(1097): CodeIgniter\View\View->render('dev/test2', Array, true)
+#4 /var/www/photolib/app/Controllers/Home.php(331): view('dev/test2')
+#5 /var/www/photolib/system/CodeIgniter.php(824): App\Controllers\Home->other()
+#6 /var/www/photolib/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/photolib/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/photolib/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
